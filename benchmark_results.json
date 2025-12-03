@@ -1,0 +1,20 @@
+[
+    {
+        "threads": 1,
+        "load_time_sec": 2.15,
+        "speed_tps": 1.84,
+        "ram_gb": 7.51
+    },
+    {
+        "threads": 2,
+        "load_time_sec": 2.15,
+        "speed_tps": 2.67,
+        "ram_gb": 7.52
+    },
+    {
+        "threads": 4,
+        "load_time_sec": 2.16,
+        "speed_tps": 2.98,
+        "ram_gb": 7.54
+    }
+]

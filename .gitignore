@@ -1,0 +1,10 @@
+# Ignore the massive model files
+*.gguf
+*.gguf.1
+
+# Ignore the virtual environment (thousands of junk files)
+venv/
+__pycache__/
+
+# Keep the important stuff
+!benchmark_results.json

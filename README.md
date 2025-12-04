@@ -23,14 +23,15 @@ This project is designed to model real constraints encountered when deploying LL
 
 ## Hardware and Environment
 
-**Machine:** Azure Standard_D4s_v3
-**CPU:** 4 vCPU Intel Xeon Platinum 8171M
-**RAM:** 16 GiB
-**Instruction Set:** AVX2, FMA
-**Operating System:** Ubuntu 22.04
-**Backend:** llama.cpp (GGUF)
-**Quantization:** Q4_K_M for all models
-**Context Length:** 4096 tokens
+ - **Machine:** Azure Standard_D4s_v5
+ - **CPU:** 4 vCPU Intel Xeon Platinum 8171M
+ - **RAM:** 16 GiB
+ - **Instruction Set:** AVX2, FMA
+ - **Operating System:** Ubuntu 22.04
+ - **Backend:** llama.cpp (GGUF)
+ - **Quantization:** Q4_K_M for all models
+ - **Context Length:** 4096 tokens
+ - **Cost:** ~ $0.19/hour (~ $0.04 with Spot instance)
 
 The environment is intentionally constrained to simulate cost-efficient production deployment scenarios.
 

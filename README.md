@@ -299,7 +299,8 @@ Highest combined accuracy, low RAM cost, acceptable speed.
 ### 1. Install Dependencies
 
 ```
-bash setup.sh
+chmod +x setup.sh
+./setup.sh
 ```
 
 Includes:
